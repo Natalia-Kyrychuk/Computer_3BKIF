@@ -3,6 +3,7 @@ public class Computer
     private String betriebssystem;
     private int hauptspeicher;
     private boolean Laptop;
+    private String hersteller;
     
     public String getBetriebssystem()
     {

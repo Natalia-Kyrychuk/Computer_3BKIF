@@ -1,24 +1,24 @@
 public class Computer
 {
-    private String hersteller;
+    private String betriebssystem;
     private int hauptspeicher;
     private boolean Laptop;
     
-    public String getHersteller()
+    public String getBetriebssystem()
     {
-        return hersteller;
+        return betriebssystem;
     }
-    public int hauptspeicher()
+    public int getHauptspeicher()
     {
         return hauptspeicher;
     }
-    public boolean Laptop()
+    public boolean getLaptop()
     {
         return Laptop;
     }
-    public void setHersteller(String neuHersteller)
+    public void setBetriebssystem(String neuBetriebssystem)
     {
-        hersteller = neuHersteller;
+        betriebssystem = neuBetriebssystem;
     }
     public void setHauptspeicher(int neuHauptspeicher)
     {
